@@ -1,0 +1,23 @@
+h1{
+	text-align: center;
+}
+/*general background color*/
+body{
+	background-color: DeepSkyBlue;
+}
+
+/*color for fields*/
+input:hover {
+    background-color: SpringGreen;
+}
+input:focus {
+    background-color: LightYellow;
+}
+input:invalid {
+    border: 4px solid FireBrick;
+}
+
+/*color when the mouse is over the button*/
+#submit :hover{
+	background-color: SpringGreen;
+}
